@@ -6,12 +6,17 @@ import writer from "../../../../../Assets/Rectangle 3 (1).jpg";
 import writer1 from "../../../../../Assets/Rectangle 3 (2).jpg";
 import writer2 from "../../../../../Assets/Rectangle 3 (2).png";
 import writer3 from "../../../../../Assets/Rectangle 3.png";
+import group from "../../../../../Assets/Rectangle 6.png";
+import group1 from "../../../../../Assets/Rectangle 6 (1).png";
+import group2 from "../../../../../Assets/Rectangle 6 (2).png";
+import group3 from "../../../../../Assets/Rectangle 6 (3).png";
 import { BsThreeDots, BsBriefcase } from 'react-icons/bs';
 import { AiOutlineEye, AiOutlineExclamationCircle } from 'react-icons/ai';
 import { HiShare } from 'react-icons/hi';
 import { RiCalendarEventFill } from 'react-icons/ri';
 import { GoLocation } from 'react-icons/go';
 import { FaPen } from 'react-icons/fa';
+import { BiLike } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 
 const PostCards = () => {
@@ -181,9 +186,47 @@ const PostCards = () => {
                     </div>
                 </div>
                 <hr />
-                <div className='d-flex align-items-center'>
+                <div className='d-flex align-items-center mb-5'>
                     <AiOutlineExclamationCircle />
-                    <h2 className='fs-6  ms-2 text-secondary mt-3'>Your location will help us serve better and extend a personalised experience.</h2>
+                    <h2 className='fs-6 ms-2 text-secondary mt-3'>Your location will help us serve better and extend a personalised experience.</h2>
+                </div>
+
+                <div>
+                    <div className='d-flex ms-2 mb-3'>
+                        <BiLike className='mt-1' />
+                        <h2 className='fs-6 ms-2 text-uppercase'>Recommended  Groups</h2>
+                    </div>
+                    <div className='d-flex justify-content-between mb-3'>
+                        <div className='d-flex align-items-center'>
+                            <img src={group} alt="" />
+                            <h2 className='fs-6 ms-2 mt-1'>Leisure</h2>
+                        </div>
+                        <button className='border border-0 rounded-pill px-3 fw-semibold'>Follow</button>
+                    </div>
+                    <div className='d-flex justify-content-between mb-3'>
+                        <div className='d-flex align-items-center'>
+                            <img src={group1} alt="" />
+                            <h2 className='fs-6 ms-2 mt-1'>Activism</h2>
+                        </div>
+                        <button className='border border-0 rounded-pill px-3 fw-semibold'>Follow</button>
+                    </div>
+                    <div className='d-flex justify-content-between mb-3'>
+                        <div className='d-flex align-items-center'>
+                            <img src={group2} alt="" />
+                            <h2 className='fs-6 ms-2 mt-1'>MBA</h2>
+                        </div>
+                        <button className='border border-0 rounded-pill px-3 fw-semibold'>Follow</button>
+                    </div>
+                    <div className='d-flex justify-content-between mb-3'>
+                        <div className='d-flex align-items-center'>
+                            <img src={group3} alt="" />
+                            <h2 className='fs-6 ms-2 mt-1'>Philosophy</h2>
+                        </div>
+                        <button className='border border-0 rounded-pill px-3 fw-semibold'>Follow</button>
+                    </div>
+                </div>
+                <div className='d-flex justify-content-end  mt-5'>
+                    <Link to="#">See More...</Link>
                 </div>
             </div>
         </div>
