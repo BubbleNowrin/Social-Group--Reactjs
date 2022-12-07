@@ -11,6 +11,7 @@ import search from '../../Assets/Vector.svg';
 import './Banner/Banner.css';
 import PostHeader from './PostSection/PostSection/PostHeader/PostHeader';
 import PostCards from './PostSection/PostSection/Posts/PostCards';
+import SignUp from '../SignUp/SignUp';
 
 const Home = () => {
     return (
@@ -48,9 +49,9 @@ const Home = () => {
                                     </Link>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <Link
-                                                class="dropdown-item" to="#">Sign Up
-                                            </Link>
+                                            <button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                Sign Up
+                                            </button>
                                         </li>
                                         <li>
                                             <Link class="dropdown-item" to="#">Sign In
@@ -66,6 +67,7 @@ const Home = () => {
             <Banner></Banner>
             <PostHeader></PostHeader>
             <PostCards></PostCards>
+            <SignUp></SignUp>
         </div>
     );
 };
