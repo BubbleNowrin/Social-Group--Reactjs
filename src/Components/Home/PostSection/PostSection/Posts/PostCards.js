@@ -198,28 +198,28 @@ const PostCards = () => {
                     </div>
                     <div className='d-flex justify-content-between mb-3'>
                         <div className='d-flex align-items-center'>
-                            <img src={group} alt="" />
+                            <img className='img-fluid' src={group} alt="" />
                             <h2 className='fs-6 ms-2 mt-1'>Leisure</h2>
                         </div>
                         <button className='border border-0 rounded-pill px-3 fw-semibold'>Follow</button>
                     </div>
                     <div className='d-flex justify-content-between mb-3'>
                         <div className='d-flex align-items-center'>
-                            <img src={group1} alt="" />
+                            <img className='img-fluid' src={group1} alt="" />
                             <h2 className='fs-6 ms-2 mt-1'>Activism</h2>
                         </div>
                         <button className='border border-0 rounded-pill px-3 fw-semibold'>Follow</button>
                     </div>
                     <div className='d-flex justify-content-between mb-3'>
                         <div className='d-flex align-items-center'>
-                            <img src={group2} alt="" />
+                            <img className='img-fluid' src={group2} alt="" />
                             <h2 className='fs-6 ms-2 mt-1'>MBA</h2>
                         </div>
                         <button className='border border-0 rounded-pill px-3 fw-semibold'>Follow</button>
                     </div>
                     <div className='d-flex justify-content-between mb-3'>
                         <div className='d-flex align-items-center'>
-                            <img src={group3} alt="" />
+                            <img className='img-fluid' src={group3} alt="" />
                             <h2 className='fs-6 ms-2 mt-1'>Philosophy</h2>
                         </div>
                         <button className='border border-0 rounded-pill px-3 fw-semibold'>Follow</button>

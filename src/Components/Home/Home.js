@@ -12,6 +12,8 @@ import './Banner/Banner.css';
 import PostHeader from './PostSection/PostSection/PostHeader/PostHeader';
 import PostCards from './PostSection/PostSection/Posts/PostCards';
 import SignUp from '../SignUp/SignUp';
+import SignIn from '../SignIn/SignIn';
+
 
 const Home = () => {
     return (
@@ -54,8 +56,9 @@ const Home = () => {
                                             </button>
                                         </li>
                                         <li>
-                                            <Link class="dropdown-item" to="#">Sign In
-                                            </Link>
+                                            <button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                Sign In
+                                            </button>
                                         </li>
                                     </ul>
                                 </li>
@@ -68,6 +71,7 @@ const Home = () => {
             <PostHeader></PostHeader>
             <PostCards></PostCards>
             <SignUp></SignUp>
+            <SignIn></SignIn>
         </div>
     );
 };
