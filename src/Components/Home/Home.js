@@ -10,6 +10,7 @@ import image from '../../Assets/whole.svg';
 import search from '../../Assets/Vector.svg';
 import './Banner/Banner.css';
 import PostHeader from './PostSection/PostSection/PostHeader/PostHeader';
+import PostCards from './PostSection/PostSection/Posts/PostCards';
 
 const Home = () => {
     return (
@@ -64,6 +65,7 @@ const Home = () => {
             </div>
             <Banner></Banner>
             <PostHeader></PostHeader>
+            <PostCards></PostCards>
         </div>
     );
 };
