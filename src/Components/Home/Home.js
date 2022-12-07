@@ -8,6 +8,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import image from '../../Assets/whole.svg';
 import search from '../../Assets/Vector.svg';
+import './Banner/Banner.css';
+import PostHeader from './PostSection/PostSection/PostHeader/PostHeader';
 
 const Home = () => {
     return (
@@ -22,12 +24,13 @@ const Home = () => {
                         </div>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
-                            <Form className="d-flex position-relative mx-5">
-                                <img className="position-absolute" src={search} alt="" />
+                            <Form className="d-flex mx-5">
+
+                                <i class="fa-solid fa-magnifying-glass"></i>
                                 <Form.Control
                                     type="search"
-                                    className="me-2 py-2 px-5 w-auto rounded-pill border border-0 bg-light"
-                                    placeholder="Search for your favorite groups in ATG"
+                                    className="py-2 px-5 rounded-pill border border-0 bg-light w-100"
+                                    placeholder="Search group"
                                     aria-label="Search"
                                 />
                             </Form>
@@ -60,6 +63,7 @@ const Home = () => {
                 </Navbar>
             </div>
             <Banner></Banner>
+            <PostHeader></PostHeader>
         </div>
     );
 };
