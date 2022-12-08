@@ -2,3 +2,9 @@
     background: #EFFFF4;
 
 }
+
+@media only screen and (max-width: 768px) {
+    .modal-dialog {
+        top: calc(100% - 450px);
+    }
+}

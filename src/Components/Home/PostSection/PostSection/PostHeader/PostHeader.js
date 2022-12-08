@@ -9,10 +9,10 @@ const PostHeader = () => {
             <nav class="navbar navbar-expand-lg border-bottom">
                 <div class="container-fluid">
                     <Link class="navbar-brand" to="#">All Posts(32)</Link>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler d-none d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarText">
+                    <div class="collapse navbar-collapse d-none d-sm-none d-md-block" id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <Link class="nav-link active" aria-current="page" to="#">Article</Link>

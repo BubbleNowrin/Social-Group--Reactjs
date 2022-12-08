@@ -21,14 +21,14 @@ const Home = () => {
             <div className='d-flex justify-content-evenly' >
                 <Navbar expand="lg" >
                     <Container fluid>
-                        <div className='me-5'>
+                        <div className='me-5 d-none d-sm-none d-md-block'>
                             <Link className="navbar-brand" to="#">
                                 <img src={image} alt="Logo" className="d-inline-block align-text-top" />
                             </Link>
                         </div>
-                        <Navbar.Toggle aria-controls="navbarScroll" />
+                        <Navbar.Toggle aria-controls="navbarScroll" className='d-none d-sm-none' />
                         <Navbar.Collapse id="navbarScroll">
-                            <Form className="d-flex mx-5">
+                            <Form className="d-flex mx-5 d-none d-sm-none d-md-block">
 
                                 <i class="fa-solid fa-magnifying-glass"></i>
                                 <Form.Control
@@ -45,7 +45,7 @@ const Home = () => {
                             >
 
 
-                                <li class="nav-item dropdown ms-5">
+                                <li class="nav-item dropdown ms-5 d-none d-sm-none d-md-block">
                                     <Link class="nav-link dropdown-toggle fw-bold" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Create Account.<span className='text-primary'>It's Free!</span>
                                     </Link>
