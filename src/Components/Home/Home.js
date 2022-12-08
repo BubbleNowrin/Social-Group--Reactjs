@@ -13,12 +13,31 @@ import PostHeader from './PostSection/PostSection/PostHeader/PostHeader';
 import PostCards from './PostSection/PostSection/Posts/PostCards';
 import SignUp from '../SignUp/SignUp';
 import SignIn from '../SignIn/SignIn';
+import { VscTriangleDown, VscCircleFilled } from 'react-icons/vsc';
+import { IoIosSquare } from 'react-icons/io';
 
 
 const Home = () => {
     return (
         <div>
-            <div className='d-flex justify-content-evenly' >
+            <div class=" d-md-none w-full d-flex justify-content-end align-items-center">
+                <button class="btn text-secondary text-right" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <IoIosSquare /><VscCircleFilled className='ms-1' /><VscTriangleDown className='ms-1' />
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Sign Up
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Sign In
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div className='d-md-flex justify-content-evenly d-none' >
                 <Navbar expand="lg" >
                     <Container fluid>
                         <div className='me-5 d-none d-sm-none d-md-block'>

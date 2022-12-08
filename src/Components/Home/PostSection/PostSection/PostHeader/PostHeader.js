@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { AiOutlineCaretDown } from 'react-icons/ai';
 import { MdOutlineGroupAdd } from 'react-icons/md';
+import { VscTriangleDown } from 'react-icons/vsc';
 
 const PostHeader = () => {
     return (
@@ -9,6 +10,8 @@ const PostHeader = () => {
             <nav class="navbar navbar-expand-lg border-bottom">
                 <div class="container-fluid">
                     <Link class="navbar-brand" to="#">All Posts(32)</Link>
+                    <button type="button" class="px-3 py-2 btn-light border border-0 text-dark fw-bold d-lg-none">Filter : All <VscTriangleDown className='ms-2' /></button>
+
                     <button class="navbar-toggler d-none d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

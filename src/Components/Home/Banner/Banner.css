@@ -33,6 +33,23 @@
     font-weight: 400;
 }
 
+.join-btn {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.icon {
+    position: absolute;
+    top: 11%;
+    left: 5%;
+    color: white;
+    height: 32px;
+    width: 32px;
+}
+
 .title-font {
     font-size: 22px;
     font-weight: 600;
@@ -55,6 +72,18 @@
     font-weight: 600;
 }
 
+.date-font {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.circle {
+    position: fixed;
+    bottom: 5%;
+    right: 7%;
+    z-index: 1000;
+}
+
 @media only screen and (max-width: 768px) {
     .custom {
         background-image:
@@ -65,10 +94,14 @@
 
     .computer {
         font-size: 17px;
+        top: 70%;
+        left: 5%;
     }
 
     .engineer {
         font-size: 12px;
+        top: 80%;
+        left: 5%;
     }
 
     .title-font {
@@ -89,6 +122,11 @@
 
     .writer-font {
         font-size: 13px;
+
+    }
+
+    .date-font {
+        font-size: 12px;
 
     }
 }

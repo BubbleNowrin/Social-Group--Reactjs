@@ -19,19 +19,21 @@ import { FaPen } from 'react-icons/fa';
 import { BiLike } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 import "../../../Banner/Banner.css";
+import circle from "../../../../../Assets/Group 6.png"
 
 const PostCards = () => {
     return (
         <div className='container-md mt-4 d-md-flex'>
+            <img className='circle img-fluid d-md-none' src={circle} alt="" />
             <div className='me-5 w-100'>
                 <div class="card mb-3">
-                    <img src={card} class="card-img-top" alt="..." />
+                    <img src={card} class="card-img-top img-fluid" alt="..." />
                     <div class="card-body">
                         <h4 class="card-title caption-font">✍️<span>Article</span></h4>
                         <div className='d-flex justify-content-between'>
                             <h5 class="card-title title-font">What if famous brands had regular fonts? Meet RegulaBrands!</h5>
                             <div class="dropdown">
-                                <button class="btn btn-light text-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button class="btn btn-light text-dark " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <BsThreeDots className='text-dark' />
                                 </button>
                                 <ul class="dropdown-menu">
@@ -47,8 +49,8 @@ const PostCards = () => {
                                 <img src={writer} alt="" />
                                 <h2 className='writer-font ms-2 mt-1 d-none d-sm-none d-md-block justify-content-center align-items-center'>Sarthak Kamra</h2>
                                 <div className='d-flex flex-column align-items-center d-lg-none '>
-                                    <h2 className='writer-font mt-1 ms-3'>Sarthak Kamra</h2>
-                                    <h2 className='fs-6 mt-1'>1.4k views</h2>
+                                    <h2 className='writer-font mt-1 ms-2'>Sarthak Kamra</h2>
+                                    <h2 className='fs-6 mt-2'>1.4k views</h2>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center">
@@ -56,19 +58,24 @@ const PostCards = () => {
                                     <AiOutlineEye />
                                     <h2 className='fs-6 ms-2 mt-1 me-5'>1.4k views</h2>
                                 </div>
-                                <button className='border border-0 px-2 py-1 btn-light btn'><HiShare /></button>
+                                <button className='border border-0 px-2 py-1 btn-light btn'>
+                                    <div className='d-flex align-items-center'>
+                                        <HiShare />
+                                        <p className='ms-1 mt-3 d-lg-none'>Share</p>
+                                    </div>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card mb-3">
-                    <img src={card1} class="card-img-top" alt="..." />
+                    <img src={card1} class="card-img-top img-fluid" alt="..." />
                     <div class="card-body">
                         <h4 class="card-title caption-font">🔬️<span>Education</span></h4>
                         <div className='d-flex justify-content-between'>
                             <h5 class="card-title title-font">Tax Benefits for Investment under National Pension Scheme launched by Government</h5>
                             <div class="dropdown">
-                                <button class="btn btn-light text-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button class="btn btn-light text-dark " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <BsThreeDots className='text-dark' />
                                 </button>
                                 <ul class="dropdown-menu">
@@ -82,26 +89,35 @@ const PostCards = () => {
                         <div className='d-flex justify-content-between align-items-center'>
                             <div className='d-flex align-items-center '>
                                 <img src={writer1} alt="" />
-                                <h2 className='writer-font ms-2 mt-1'>Sarah West</h2>
+                                <h2 className='writer-font ms-2 mt-1 d-none d-sm-none d-md-block justify-content-center align-items-center'>Sarah West</h2>
+                                <div className='d-flex flex-column align-items-center d-lg-none '>
+                                    <h2 className='writer-font mt-1 ms-1'>Sarah West</h2>
+                                    <h2 className='fs-6 mt-1 ms-2'>1.4k views</h2>
+                                </div>
                             </div>
                             <div class="d-flex align-items-center">
-                                <div className='d-flex align-items-center'>
+                                <div className='d-flex align-items-center d-none d-sm-none d-md-flex'>
                                     <AiOutlineEye />
                                     <h2 className='fs-6 ms-2 mt-1 me-5'>1.4k views</h2>
                                 </div>
-                                <button className='border border-0 px-2 py-1 btn-light btn'><HiShare /></button>
+                                <button className='border border-0 px-2 py-1 btn-light btn'>
+                                    <div className='d-flex align-items-center'>
+                                        <HiShare />
+                                        <p className='ms-1 mt-3 d-lg-none'>Share</p>
+                                    </div>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card mb-3">
-                    <img src={card1} class="card-img-top" alt="..." />
+                    <img src={card2} class="card-img-top img-fluid" alt="..." />
                     <div class="card-body">
                         <h4 class="card-title caption-font">🗓️<span>Meetup</span></h4>
                         <div className='d-flex justify-content-between'>
                             <h5 class="card-title title-font">Finance & Investment Elite Social Mixer @Lujiazui</h5>
                             <div class="dropdown">
-                                <button class="btn btn-light text-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button class="btn btn-light text-dark " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <BsThreeDots className='text-dark' />
                                 </button>
                                 <ul class="dropdown-menu">
@@ -114,7 +130,7 @@ const PostCards = () => {
                         <div className='d-flex'>
                             <div className='d-flex align-items-center'>
                                 <RiCalendarEventFill />
-                                <h2 className='fs-6 ms-2 mt-1'>Fri, 12 Oct, 2018</h2>
+                                <h2 className='date-font ms-2 mt-1'>Fri, 12 Oct, 2018</h2>
                             </div>
                             <div className='d-flex align-items-center ms-5'>
                                 <GoLocation />
@@ -125,14 +141,23 @@ const PostCards = () => {
                         <div className='d-flex justify-content-between align-items-center'>
                             <div className='d-flex align-items-center '>
                                 <img src={writer2} alt="" />
-                                <h2 className='writer-font ms-2 mt-1'>Ronal Jones</h2>
+                                <h2 className='writer-font ms-2 mt-1 d-none d-sm-none d-md-block justify-content-center align-items-center'>Ronal Jones</h2>
+                                <div className='d-flex flex-column align-items-center d-lg-none '>
+                                    <h2 className='writer-font mt-1 ms-1'>Ronal Jones</h2>
+                                    <h2 className='fs-6 mt-1 ms-2'>1.4k views</h2>
+                                </div>
                             </div>
                             <div class="d-flex align-items-center">
-                                <div className='d-flex align-items-center'>
+                                <div className='d-flex align-items-center d-none d-sm-none d-md-flex'>
                                     <AiOutlineEye />
                                     <h2 className='fs-6 ms-2 mt-1 me-5'>1.4k views</h2>
                                 </div>
-                                <button className='border border-0 px-2 py-1 btn-light btn'><HiShare /></button>
+                                <button className='border border-0 px-2 py-1 btn-light btn'>
+                                    <div className='d-flex align-items-center'>
+                                        <HiShare />
+                                        <p className='ms-1 mt-3 d-lg-none'>Share</p>
+                                    </div>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -143,7 +168,7 @@ const PostCards = () => {
                         <div className='d-flex justify-content-between'>
                             <h5 class="card-title title-font">Software Developer</h5>
                             <div class="dropdown">
-                                <button class="btn btn-light text-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button class="btn btn-light text-dark " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <BsThreeDots className='text-dark' />
                                 </button>
                                 <ul class="dropdown-menu">
@@ -156,7 +181,7 @@ const PostCards = () => {
                         <div className='d-flex'>
                             <div className='d-flex align-items-center'>
                                 <BsBriefcase />
-                                <h2 className='fs-6 ms-2 mt-1'>Innovaccer Analytics Private Ltd.</h2>
+                                <h2 className='date-font ms-2 mt-1'>Innovaccer Analytics Private Ltd.</h2>
                             </div>
                             <div className='d-flex align-items-center ms-5'>
                                 <GoLocation />
@@ -167,14 +192,23 @@ const PostCards = () => {
                         <div className='d-flex justify-content-between align-items-center'>
                             <div className='d-flex align-items-center '>
                                 <img src={writer3} alt="" />
-                                <h2 className='writer-font ms-2 mt-1'>Joseph Gray</h2>
+                                <h2 className='writer-font ms-2 mt-1 d-none d-sm-none d-md-block justify-content-center align-items-center'>Joseph Gray</h2>
+                                <div className='d-flex flex-column align-items-center d-lg-none '>
+                                    <h2 className='writer-font mt-1 ms-1'>Joseph Gray</h2>
+                                    <h2 className='fs-6 mt-1 ms-2'>1.4k views</h2>
+                                </div>
                             </div>
                             <div class="d-flex align-items-center">
-                                <div className='d-flex align-items-center'>
+                                <div className='d-flex align-items-center d-none d-sm-none d-md-flex'>
                                     <AiOutlineEye />
                                     <h2 className='fs-6 ms-2 mt-1 me-5'>1.4k views</h2>
                                 </div>
-                                <button className='border border-0 px-2 py-1 btn-light btn'><HiShare /></button>
+                                <button className='border border-0 px-2 py-1 btn-light btn'>
+                                    <div className='d-flex align-items-center'>
+                                        <HiShare />
+                                        <p className='ms-1 mt-3 d-lg-none'>Share</p>
+                                    </div>
+                                </button>
                             </div>
                         </div>
                     </div>
