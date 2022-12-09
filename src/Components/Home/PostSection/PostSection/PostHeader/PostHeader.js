@@ -7,33 +7,33 @@ import { VscTriangleDown } from 'react-icons/vsc';
 const PostHeader = () => {
     return (
         <div className='container mt-4'>
-            <nav class="navbar navbar-expand-lg border-bottom">
-                <div class="container-fluid">
-                    <Link class="navbar-brand" to="#">All Posts(32)</Link>
-                    <button type="button" class="px-3 py-2 btn-light border border-0 text-dark fw-bold d-lg-none">Filter : All <VscTriangleDown className='ms-2' /></button>
+            <nav className="navbar navbar-expand-lg border-bottom">
+                <div className="container-fluid">
+                    <Link className="navbar-brand" to="#">All Posts(32)</Link>
+                    <button type="button" className="px-3 py-2 btn-light border border-0 text-dark fw-bold d-lg-none">Filter : All <VscTriangleDown className='ms-2' /></button>
 
-                    <button class="navbar-toggler d-none d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler d-none d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse d-none d-sm-none d-md-block" id="navbarText">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <Link class="nav-link active" aria-current="page" to="#">Article</Link>
+                    <div className="collapse navbar-collapse d-none d-sm-none d-md-block" id="navbarText">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <Link className="nav-link active" aria-current="page" to="#">Article</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link active" to="#">Event</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link active" to="#">Event</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link active" to="#">Education</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link active" to="#">Education</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link active" to="#">Job</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link active" to="#">Job</Link>
                             </li>
                         </ul>
-                        <span class="navbar-text">
-                            <button type="button" class="px-3 py-2 btn-light border border-0 text-dark fw-bold">Write a Post <AiOutlineCaretDown /></button>
-                            <button type="button" class="px-3 py-2 bg-primary ms-3  fw-bold border border-0 text-white" >
-                                <MdOutlineGroupAdd class="me-1" />
+                        <span className="navbar-text">
+                            <button type="button" className="px-3 py-2 btn-light border border-0 text-dark fw-bold">Write a Post <AiOutlineCaretDown /></button>
+                            <button type="button" className="px-3 py-2 bg-primary ms-3  fw-bold border border-0 text-white" >
+                                <MdOutlineGroupAdd className="me-1" />
                                 Join Group
                             </button>
                         </span>

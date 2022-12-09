@@ -10,7 +10,7 @@ const Banner = () => {
             <h2 className='text-light computer'>Computer Engineering</h2>
             <h2 className='text-light engineer'>142,765 Computer Engineers follow this</h2>
             <IoArrowBackSharp className='icon d-lg-none' />
-            <button type="button" class="btn btn-outline-light join-btn d-lg-none">Join Group</button>
+            <button type="button" className="btn btn-outline-light join-btn d-lg-none">Join Group</button>
         </div>
     );
 };

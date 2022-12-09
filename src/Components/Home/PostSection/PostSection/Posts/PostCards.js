@@ -26,24 +26,24 @@ const PostCards = () => {
         <div className='container-md mt-4 d-md-flex'>
             <img className='circle img-fluid d-md-none' src={circle} alt="" />
             <div className='me-5 w-100'>
-                <div class="card mb-3">
-                    <img src={card} class="card-img-top img-fluid" alt="..." />
-                    <div class="card-body">
-                        <h4 class="card-title caption-font">✍️<span>Article</span></h4>
+                <div className="card mb-3">
+                    <img src={card} className="card-img-top img-fluid" alt="..." />
+                    <div className="card-body">
+                        <h4 className="card-title caption-font">✍️<span>Article</span></h4>
                         <div className='d-flex justify-content-between'>
-                            <h5 class="card-title title-font">What if famous brands had regular fonts? Meet RegulaBrands!</h5>
-                            <div class="dropdown">
-                                <button class="btn btn-light text-dark " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <h5 className="card-title title-font">What if famous brands had regular fonts? Meet RegulaBrands!</h5>
+                            <div className="dropdown">
+                                <button className="btn btn-light text-dark " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <BsThreeDots className='text-dark' />
                                 </button>
-                                <ul class="dropdown-menu">
-                                    <li><Link class="dropdown-item" to="#">Edit</Link></li>
-                                    <li><Link class="dropdown-item" to="#">Report</Link></li>
-                                    <li><Link class="dropdown-item" to="#">Option 3</Link></li>
+                                <ul className="dropdown-menu">
+                                    <li><Link className="dropdown-item" to="#">Edit</Link></li>
+                                    <li><Link className="dropdown-item" to="#">Report</Link></li>
+                                    <li><Link className="dropdown-item" to="#">Option 3</Link></li>
                                 </ul>
                             </div>
                         </div>
-                        <p class="card-text p-font">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                        <p className="card-text p-font">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
                         <div className='d-flex justify-content-between align-items-center'>
                             <div className='d-flex align-items-center '>
                                 <img src={writer} alt="" />
@@ -53,12 +53,12 @@ const PostCards = () => {
                                     <h2 className='fs-6 mt-2'>1.4k views</h2>
                                 </div>
                             </div>
-                            <div class="d-flex align-items-center">
+                            <div className="d-flex align-items-center">
                                 <div className='d-flex align-items-center d-none d-sm-none d-md-flex'>
                                     <AiOutlineEye />
                                     <h2 className='fs-6 ms-2 mt-1 me-5'>1.4k views</h2>
                                 </div>
-                                <button className='border border-0 px-2 py-1 btn-light btn'>
+                                <button className='border border-0  btn-light btn'>
                                     <div className='d-flex align-items-center'>
                                         <HiShare />
                                         <p className='ms-1 mt-3 d-lg-none'>Share</p>
@@ -68,24 +68,24 @@ const PostCards = () => {
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3">
-                    <img src={card1} class="card-img-top img-fluid" alt="..." />
-                    <div class="card-body">
-                        <h4 class="card-title caption-font">🔬️<span>Education</span></h4>
+                <div className="card mb-3">
+                    <img src={card1} className="card-img-top img-fluid" alt="..." />
+                    <div className="card-body">
+                        <h4 className="card-title caption-font">🔬️<span>Education</span></h4>
                         <div className='d-flex justify-content-between'>
-                            <h5 class="card-title title-font">Tax Benefits for Investment under National Pension Scheme launched by Government</h5>
-                            <div class="dropdown">
-                                <button class="btn btn-light text-dark " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <h5 className="card-title title-font">Tax Benefits for Investment under National Pension Scheme launched by Government</h5>
+                            <div className="dropdown">
+                                <button className="btn btn-light text-dark " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <BsThreeDots className='text-dark' />
                                 </button>
-                                <ul class="dropdown-menu">
-                                    <li><Link class="dropdown-item" to="#">Edit</Link></li>
-                                    <li><Link class="dropdown-item" to="#">Report</Link></li>
-                                    <li><Link class="dropdown-item" to="#">Option 3</Link></li>
+                                <ul className="dropdown-menu">
+                                    <li><Link className="dropdown-item" to="#">Edit</Link></li>
+                                    <li><Link className="dropdown-item" to="#">Report</Link></li>
+                                    <li><Link className="dropdown-item" to="#">Option 3</Link></li>
                                 </ul>
                             </div>
                         </div>
-                        <p class="card-text p-font">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                        <p className="card-text p-font">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
                         <div className='d-flex justify-content-between align-items-center'>
                             <div className='d-flex align-items-center '>
                                 <img src={writer1} alt="" />
@@ -95,12 +95,12 @@ const PostCards = () => {
                                     <h2 className='fs-6 mt-1 ms-2'>1.4k views</h2>
                                 </div>
                             </div>
-                            <div class="d-flex align-items-center">
+                            <div className="d-flex align-items-center">
                                 <div className='d-flex align-items-center d-none d-sm-none d-md-flex'>
                                     <AiOutlineEye />
                                     <h2 className='fs-6 ms-2 mt-1 me-5'>1.4k views</h2>
                                 </div>
-                                <button className='border border-0 px-2 py-1 btn-light btn'>
+                                <button className='border border-0 btn-light btn'>
                                     <div className='d-flex align-items-center'>
                                         <HiShare />
                                         <p className='ms-1 mt-3 d-lg-none'>Share</p>
@@ -110,20 +110,20 @@ const PostCards = () => {
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3">
-                    <img src={card2} class="card-img-top img-fluid" alt="..." />
-                    <div class="card-body">
-                        <h4 class="card-title caption-font">🗓️<span>Meetup</span></h4>
+                <div className="card mb-3">
+                    <img src={card2} className="card-img-top img-fluid" alt="..." />
+                    <div className="card-body">
+                        <h4 className="card-title caption-font">🗓️<span>Meetup</span></h4>
                         <div className='d-flex justify-content-between'>
-                            <h5 class="card-title title-font">Finance & Investment Elite Social Mixer @Lujiazui</h5>
-                            <div class="dropdown">
-                                <button class="btn btn-light text-dark " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <h5 className="card-title title-font">Finance & Investment Elite Social Mixer @Lujiazui</h5>
+                            <div className="dropdown">
+                                <button className="btn btn-light text-dark " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <BsThreeDots className='text-dark' />
                                 </button>
-                                <ul class="dropdown-menu">
-                                    <li><Link class="dropdown-item" to="#">Edit</Link></li>
-                                    <li><Link class="dropdown-item" to="#">Report</Link></li>
-                                    <li><Link class="dropdown-item" to="#">Option 3</Link></li>
+                                <ul className="dropdown-menu">
+                                    <li><Link className="dropdown-item" to="#">Edit</Link></li>
+                                    <li><Link className="dropdown-item" to="#">Report</Link></li>
+                                    <li><Link className="dropdown-item" to="#">Option 3</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -137,7 +137,7 @@ const PostCards = () => {
                                 <h2 className='fs-6 ms-2 mt-1'>Ahmedabad, India</h2>
                             </div>
                         </div>
-                        <button type="button" class="btn border-secondary w-100 mt-1 mb-4"><span className='text-danger fw-bold'>Visit Website</span></button>
+                        <button type="button" className="btn border-secondary w-100 mt-1 mb-4"><span className='text-danger fw-bold'>Visit Website</span></button>
                         <div className='d-flex justify-content-between align-items-center'>
                             <div className='d-flex align-items-center '>
                                 <img src={writer2} alt="" />
@@ -147,12 +147,12 @@ const PostCards = () => {
                                     <h2 className='fs-6 mt-1 ms-2'>1.4k views</h2>
                                 </div>
                             </div>
-                            <div class="d-flex align-items-center">
+                            <div className="d-flex align-items-center">
                                 <div className='d-flex align-items-center d-none d-sm-none d-md-flex'>
                                     <AiOutlineEye />
                                     <h2 className='fs-6 ms-2 mt-1 me-5'>1.4k views</h2>
                                 </div>
-                                <button className='border border-0 px-2 py-1 btn-light btn'>
+                                <button className='border border-0 btn-light btn'>
                                     <div className='d-flex align-items-center'>
                                         <HiShare />
                                         <p className='ms-1 mt-3 d-lg-none'>Share</p>
@@ -162,19 +162,19 @@ const PostCards = () => {
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3">
-                    <div class="card-body">
-                        <h4 class="card-title caption-font">💼️<span>Job</span></h4>
+                <div className="card mb-3">
+                    <div className="card-body">
+                        <h4 className="card-title caption-font">💼️<span>Job</span></h4>
                         <div className='d-flex justify-content-between'>
-                            <h5 class="card-title title-font">Software Developer</h5>
-                            <div class="dropdown">
-                                <button class="btn btn-light text-dark " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <h5 className="card-title title-font">Software Developer</h5>
+                            <div className="dropdown">
+                                <button className="btn btn-light text-dark " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <BsThreeDots className='text-dark' />
                                 </button>
-                                <ul class="dropdown-menu">
-                                    <li><Link class="dropdown-item" to="#">Edit</Link></li>
-                                    <li><Link class="dropdown-item" to="#">Report</Link></li>
-                                    <li><Link class="dropdown-item" to="#">Option 3</Link></li>
+                                <ul className="dropdown-menu">
+                                    <li><Link className="dropdown-item" to="#">Edit</Link></li>
+                                    <li><Link className="dropdown-item" to="#">Report</Link></li>
+                                    <li><Link className="dropdown-item" to="#">Option 3</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -188,7 +188,7 @@ const PostCards = () => {
                                 <h2 className='fs-6 ms-2 mt-1'>Noida, India</h2>
                             </div>
                         </div>
-                        <button type="button" class="btn border-secondary w-100 mt-1 mb-4"><span className='fw-bold text-success'>Apply on Timesjobs</span></button>
+                        <button type="button" className="btn border-secondary w-100 mt-1 mb-4"><span className='fw-bold text-success'>Apply on Timesjobs</span></button>
                         <div className='d-flex justify-content-between align-items-center'>
                             <div className='d-flex align-items-center '>
                                 <img src={writer3} alt="" />
@@ -198,12 +198,12 @@ const PostCards = () => {
                                     <h2 className='fs-6 mt-1 ms-2'>1.4k views</h2>
                                 </div>
                             </div>
-                            <div class="d-flex align-items-center">
+                            <div className="d-flex align-items-center">
                                 <div className='d-flex align-items-center d-none d-sm-none d-md-flex'>
                                     <AiOutlineEye />
                                     <h2 className='fs-6 ms-2 mt-1 me-5'>1.4k views</h2>
                                 </div>
-                                <button className='border border-0 px-2 py-1 btn-light btn'>
+                                <button className='border border-0 btn-light btn'>
                                     <div className='d-flex align-items-center'>
                                         <HiShare />
                                         <p className='ms-1 mt-3 d-lg-none'>Share</p>

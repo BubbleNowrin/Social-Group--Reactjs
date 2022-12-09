@@ -19,18 +19,18 @@ import SignIn from '../SignIn/SignIn';
 const Home = () => {
     return (
         <div>
-            <div class=" d-md-none w-full d-flex justify-content-end align-items-center">
-                <button class="btn text-secondary text-right" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <div className=" d-md-none w-full d-flex justify-content-end align-items-center">
+                <button className="btn text-secondary text-right" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src={image1} className='img-fluid' alt="" />
                 </button>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                     <li>
-                        <button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <button type="button" className="dropdown-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                             Sign Up
                         </button>
                     </li>
                     <li>
-                        <button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" className="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Sign In
                         </button>
                     </li>
@@ -48,7 +48,7 @@ const Home = () => {
                         <Navbar.Collapse id="navbarScroll">
                             <Form className="d-flex mx-5 d-none d-sm-none d-md-block">
 
-                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <i className="fa-solid fa-magnifying-glass"></i>
                                 <Form.Control
                                     type="search"
                                     className="py-2 px-5 rounded-pill border border-0 bg-light w-100"
@@ -63,18 +63,18 @@ const Home = () => {
                             >
 
 
-                                <li class="nav-item dropdown ms-5 d-none d-sm-none d-md-block">
-                                    <Link class="nav-link dropdown-toggle fw-bold" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <li className="nav-item dropdown ms-5 d-none d-sm-none d-md-block">
+                                    <Link className="nav-link dropdown-toggle fw-bold" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Create Account.<span className='text-primary'>It's Free!</span>
                                     </Link>
-                                    <ul class="dropdown-menu">
+                                    <ul className="dropdown-menu">
                                         <li>
-                                            <button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                            <button type="button" className="dropdown-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                 Sign Up
                                             </button>
                                         </li>
                                         <li>
-                                            <button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <button type="button" className="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 Sign In
                                             </button>
                                         </li>
