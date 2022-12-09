@@ -7,14 +7,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import image from '../../Assets/whole.svg';
-import search from '../../Assets/Vector.svg';
+import image1 from '../../Assets/Group 3 (1).svg';
 import './Banner/Banner.css';
 import PostHeader from './PostSection/PostSection/PostHeader/PostHeader';
 import PostCards from './PostSection/PostSection/Posts/PostCards';
 import SignUp from '../SignUp/SignUp';
 import SignIn from '../SignIn/SignIn';
-import { VscTriangleDown, VscCircleFilled } from 'react-icons/vsc';
-import { IoIosSquare } from 'react-icons/io';
+
 
 
 const Home = () => {
@@ -22,7 +21,7 @@ const Home = () => {
         <div>
             <div class=" d-md-none w-full d-flex justify-content-end align-items-center">
                 <button class="btn text-secondary text-right" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <IoIosSquare /><VscCircleFilled className='ms-1' /><VscTriangleDown className='ms-1' />
+                    <img src={image1} className='img-fluid' alt="" />
                 </button>
                 <ul class="dropdown-menu">
                     <li>
